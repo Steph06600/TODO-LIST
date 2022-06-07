@@ -1,0 +1,99 @@
+body {
+  margin: 0px;
+  width: 100%;
+}
+
+.blocSection {
+  background: linear-gradient(#b79a86, #787471);
+  color: white;
+  box-shadow: #787471;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin: 4% 5%;
+  height: 40em;
+  border-radius: 15%;
+  width: 50em;
+}
+
+.todoContainer {
+  vertical-align: middle;
+}
+
+/* BLOC TITRES */
+
+section h1 {
+  padding: 5%;
+}
+
+section h2 {
+  margin: 5%;
+}
+
+/* BLOC TODOLIST */
+
+.todoList {
+  margin: 5%;
+}
+
+.newDivList {
+  display: flex;
+  width: 100%;
+  flex-direction: row-reverse;
+}
+
+.todoList li {
+  list-style: none;
+  background: white;
+  color: grey;
+  border-radius: 30px;
+  padding-left: 1em;
+  flex: auto;
+  text-align: left;
+  margin: auto;
+}
+
+.todoList button {
+  margin: 4px 0.25rem;
+  background: grey;
+  color: white;
+  justify-content: end;
+}
+
+.boutonCheck:checked {
+  background-color: grey;
+}
+
+/* BLOC FORMULAIRE */
+
+#blocFormulaire {
+  margin: 5%;
+}
+
+section label {
+  font-size: 18px;
+}
+
+.todoInput {
+  margin: 2% 0;
+}
+
+section input {
+  color: grey;
+  font-size: 14px;
+  margin-top: 1em;
+  padding: 1em;
+  border: none;
+  border-style: double;
+  border-width: 8px;
+  border-radius: 30px;
+  width: auto;
+}
+
+section button {
+  background: white;
+  color: GREY;
+  border: NONE;
+  border-radius: 30px;
+  padding: 10px;
+  font-weight: bold;
+}
